@@ -1,4 +1,4 @@
-# demo_ui
+# Project Details
 
 A new Flutter project.
 I'd be glad to describe Rich Text, Scaffold, Center, AppBar, and TextStyle in detail for your Flutter development tasks:
