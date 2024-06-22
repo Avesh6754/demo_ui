@@ -173,6 +173,7 @@ Container(
 );
 ```
 
+
 **Scaffold (already covered):**
 
 The explanation of Scaffold remains the same as before. It provides the fundamental layout structure for your Flutter apps.
