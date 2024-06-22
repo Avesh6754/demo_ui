@@ -126,6 +126,71 @@ Text(
 );
 ```
 
+**Container:**
+
+- **Purpose:** A generic container widget that can hold other widgets.
+- **Use Case:** Provides a way to group and style content within your app's layout.
+- **Key Properties:**
+    - `child`: The widget placed inside the `Container`.
+    - `color`: The background color of the container.
+    - `padding`: The space around the child widget.
+    - `margin`: The space around the container itself.
+    - `decoration`: Used for borders, shadows, and other visual effects.
+
+**Example:**
+
+```dart
+Container(
+  padding: EdgeInsets.all(10.0), // Add padding around the child
+  color: Colors.grey[200], // Set a background color
+  child: Text(
+    'This text is inside a container',
+    style: TextStyle(fontSize: 18.0),
+  ),
+);
+```
+
+**Alignment:**
+
+- **Purpose:** Used to position a child widget within its parent container.
+- **Common Alignments:**
+    - `Alignment.topLeft`: Top left corner.
+    - `Alignment.topCenter`: Top center.
+    - `Alignment.topRight`: Top right corner.
+    - `Alignment.centerLeft`: Center left.
+    - `Alignment.center`: Center (default).
+    - `Alignment.centerRight`: Center right.
+    - `Alignment.bottomLeft`: Bottom left corner.
+    - `Alignment.bottomCenter`: Bottom center.
+    - `Alignment.bottomRight`: Bottom right corner.
+
+**Example:**
+
+```dart
+Container(
+  alignment: Alignment.center, // Center the child widget
+  child: Text('Centered Text'),
+);
+```
+
+**Scaffold (already covered):**
+
+The explanation of Scaffold remains the same as before. It provides the fundamental layout structure for your Flutter apps.
+
+**Center (already covered):**
+
+The explanation of Center remains the same as before. It positions its child widget exactly in the center of its available space.
+
+**AppBar (already covered):**
+
+The explanation of AppBar remains the same as before. It creates a title bar at the top of the screen.
+
+**TextStyle (already covered):**
+
+The explanation of TextStyle remains the same as before. It defines various visual properties for text display.
+
+By combining these widgets effectively, you can create visually appealing and well-structured user interfaces in your Flutter apps!
+
 By combining these widgets effectively, you can create visually appealing and well-structured Flutter apps!
 
 
