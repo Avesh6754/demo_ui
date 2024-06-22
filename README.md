@@ -10,10 +10,10 @@ A new Flutter project.
   </a>
   </p>
 <hr>
-<hr>
+
 <p>
   
   <img src="https://github.com/Avesh6754/demo_ui/assets/149478146/f0aee2ea-f7b6-418b-8890-e5cdc2380524" width="22%" Height="35%">
   </a>
   </p>
-<hr>
+
