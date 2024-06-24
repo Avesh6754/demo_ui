@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 void main()
 {
   runApp(Myapp());
@@ -11,42 +10,144 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homescreen(),
+      home: Home(),
     );
   }
 }
-
-class Homescreen extends StatefulWidget {
-  const Homescreen ({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<Homescreen> createState() => _State();
+  State<Home> createState() => _HomeState();
 }
 
-class _State extends State<Homescreen> {
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
-        backgroundColor: Colors.blue,
-        title: Text(
-          'RichText Example ',style: TextStyle(color: Colors.white,fontWeight: FontWeight.w500),
-        ),
+      backgroundColor: Colors.black,
+      appBar: AppBar(
         centerTitle: true,
-        leading: Icon(Icons.menu,color: Colors.white,),
-      ) ,
-      body: Center(
-        child: RichText(
-          text: TextSpan(
-            children: [
-              TextSpan(text: 'Single  ',style: TextStyle(color: Colors.blue,fontSize:30 ,fontWeight: FontWeight.bold)),
-              TextSpan(text: 'Line',style: TextStyle(color: Colors.white,fontSize:30,fontWeight: FontWeight.bold ,backgroundColor: Colors.teal)),
-              TextSpan(text: '  Multiple',style: TextStyle(color: Colors.orange,fontSize: 30,fontWeight: FontWeight.w400)),
-              TextSpan(text: '  Styles',style: TextStyle(color: Colors.pink,fontSize:30,fontStyle: FontStyle.italic,fontWeight: FontWeight.bold)),
+        title:const Text("Red & White",
+          style: TextStyle(
+              letterSpacing: 1,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+              fontSize:25
 
-            ]
           ),
         ),
+        backgroundColor: Colors.redAccent,
+        leading: const Icon(Icons.menu,color: Colors.white,),
+
+
+      ),
+      body:const Center(
+
+        child: Text.rich(TextSpan(
+            children:  [
+              TextSpan(text:'           G',style: TextStyle(
+                  color: Colors.green,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'R',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'APHICS\n',style: TextStyle(
+                  color: Colors.green,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'    FLUTT',style: TextStyle(
+                  color: Colors.blue,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'E',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'R\n',style: TextStyle(
+                  color: Colors.blue,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'         AN',style: TextStyle(
+                  color: Colors.green,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'D',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'ROID\n',style: TextStyle(
+                  color: Colors.green,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:' DESIGN',style: TextStyle(
+                  color: Colors.amber,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:' & ',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'DEVELOP\n',style: TextStyle(
+                  color: Colors.amber,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'           W',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'WEB\n',style: TextStyle(
+                  color: Colors.blue,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing:4
+              )),
+              TextSpan(text:'        FAS',style: TextStyle(
+                  color: Colors.yellow,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'H',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'ION\n',style: TextStyle(
+                  color: Colors.yellow,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'  ANIMAT',style: TextStyle(
+                  color: Colors.teal,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'I',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'ION\n',style: TextStyle(
+                  color: Colors.teal,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'            I',style: TextStyle(
+                  color: Colors.blue,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'T',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'A-CS+\n',style: TextStyle(
+                  color: Colors.blue,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'       GAM',style: TextStyle(
+                  color: Colors.orange,fontSize:28,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+              TextSpan(text:'E',style: TextStyle(
+                  color: Colors.red,fontSize:35,
+                  fontWeight: FontWeight.bold,letterSpacing: 4
+              )),
+            ]
+        )),
       ),
     );
   }
