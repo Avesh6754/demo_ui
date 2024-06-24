@@ -199,5 +199,9 @@ By combining these widgets effectively, you can create visually appealing and we
 <p>
   <img src="https://github.com/Avesh6754/demo_ui/assets/149478146/cf6ac99a-0bde-4377-9173-85f0dee5e404" width="22%" Height="35%">
   <img src="https://github.com/Avesh6754/demo_ui/assets/149478146/f0aee2ea-f7b6-418b-8890-e5cdc2380524" width="22%" Height="35%">
+    <img src="https://github.com/Avesh6754/demo_ui/assets/149478146/317cd949-ed10-40ca-ae32-442c0e5176b9" width="22%" Height="35%">
+    <img src="https://github.com/Avesh6754/demo_ui/assets/149478146/ddb8b98f-a425-4020-881e-2cde94a84f37" width="22%" Height="35%">
 </p>
+
+
 
