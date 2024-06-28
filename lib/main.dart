@@ -34,8 +34,6 @@ class _HomescreenState extends State<Homescreen> {
         appBar: Appbar(name: 'Text Modification'),
         body: Center(
           child: Text.rich(TextSpan(children: [
-
-
             text(Name: 'Flutter', color: Colors.red),
             text(Name: 'Dart', color: Colors.blue),
             text(Name: 'Java', color: Colors.green),
@@ -44,11 +42,9 @@ class _HomescreenState extends State<Homescreen> {
             text(Name: 'C++', color: Colors.pink),
             text(Name: 'Python', color: Colors.amber),
             text(Name: 'Rust', color: Colors.deepPurple),
-
           ])),
         ),
       ),
     );
   }
 }
-

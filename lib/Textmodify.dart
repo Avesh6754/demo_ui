@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 AppBar Appbar({required String name}) {
@@ -31,4 +29,11 @@ AppBar Appbar({required String name}) {
   );
 }
 
-TextSpan text({required String Name ,required Color color}) => TextSpan(text:'$Name\n',style: TextStyle(fontSize: 40,color: color,fontWeight: FontWeight.bold,decoration: TextDecoration.underline,decorationColor: Colors.yellow));
+TextSpan text({required String Name, required Color color}) => TextSpan(
+    text: '$Name\n',
+    style: TextStyle(
+        fontSize: 40,
+        color: color,
+        fontWeight: FontWeight.bold,
+        decoration: TextDecoration.underline,
+        decorationColor: Colors.yellow));
